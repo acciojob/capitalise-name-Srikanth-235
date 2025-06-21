@@ -1,4 +1,4 @@
 //your JS code here. If required.
-document.getElementById('fname').addEventListener('keyup',function(){
+document.getElementById('fname').addEventListener('blur',function(){
 	this.value=this.value.toUpperCase();
 });
